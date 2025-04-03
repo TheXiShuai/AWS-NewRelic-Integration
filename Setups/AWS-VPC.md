@@ -74,4 +74,4 @@ How VPC resources are mutually connected: ![How VPC resources are mutually conne
 
 ## Next Steps
 - Install New Relic PHP agent on the App Server to monitor the WP site.
-- Proceed to: ![Proceed to](New-Relic.md)
+- ![Next Step](New-Relic.md)
