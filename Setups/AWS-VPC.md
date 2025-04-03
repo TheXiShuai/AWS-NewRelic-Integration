@@ -54,10 +54,10 @@ This document outlines the steps to configure the AWS VPC and network infrastruc
 - **Protocol:** HTTP (80)
 - **Health Check Path:** `/`
 - **Registered Target:** Private EC2 instance hosting WordPress.
-- ![ALB resource map](../AWS-images/ALB-map.png)
+- ALB resource map: ![ALB resource map](../AWS-images/ALB-map.png)
 
 ## VPC resource map
-![How VPC resources are mutually connected](../AWS-images/VPC-map.png)
+How VPC resources are mutually connected: ![How VPC resources are mutually connected](../AWS-images/VPC-map.png)
 
 ## WordPress Installation
 1. Connect to the private EC2 instance via SSH using the bastion host.
@@ -74,4 +74,4 @@ This document outlines the steps to configure the AWS VPC and network infrastruc
 
 ## Next Steps
 - Install New Relic PHP agent on the App Server to monitor the WP site.
-![Proceed to](New-Relic.md)
+- Proceed to: ![Proceed to](New-Relic.md)
