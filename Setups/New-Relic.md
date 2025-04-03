@@ -15,18 +15,18 @@ This PoC focuses on deploying a WordPress site on AWS and integrating New Relic 
 
 1. **Installed and Configured New Relic PHP Agent**
 
-   - On Application monitoring, selected PHP ![On a host (CLI)](../New-Relic-images/PHP-on-a-host-CLI.png).
-   - ![Selected the package manager](../New-Relic-images/package-manager.png).
+   - On Application monitoring, selected PHP: ![On a host (CLI)](../New-Relic-images/PHP-on-a-host-CLI.png).
+   - Selected the package manager: ![Selected the package manager](../New-Relic-images/package-manager.png).
    - On the App server, added New Relic repository and installed the PHP agent.
    - Connected infrastructure and logs.
    - Restarted the Apache server to apply changes. 
-   - ![Checked connection](../New-Relic-images/test-connection.png)
+   - Checked connection: ![Checked connection](../New-Relic-images/test-connection.png)
 
 2. **Monitored Key Metrics in New Relic**
 
    - **Application Performance**: ![Tracked Resquest & response, connection uptime and error response codes](../New-Relic-images/App-performance.png).
    - **Infrastructure Monitoring**: Analysed CPU, memory, disk I/O and network usage of the EC2 instance![App server monitoring](../New-Relic-images/infra-monitor.png).
-   - **Synthetic monitoring**: Since the WP site doesn't have any actual interactions, I used synthetic monitoring to ping checks that monitor uptime, page load speed and API availability from different regions ![synthetic](../New-Relic-images/synthetic.png).
+   - **Synthetic monitoring**: Since the WP site doesn't have any actual interactions, I used synthetic monitoring to ping checks that monitor uptime, page load speed and API availability from different regions: ![synthetic](../New-Relic-images/synthetic.png).
 
 2. **New Relic service map**
     ![service map](../Architecture-Diagrams/New-relic.pdf).
